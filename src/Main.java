@@ -1,10 +1,11 @@
-import java.util.Scanner;
 //Deivid Andres Real Franco
+//20/08/2024
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
-        int m20 = 0, m50 = 0, m100 = 0, m200 = 0, m500 = 0, ing = 0, sal=0,mon=0;
+        int m20 = 0, m50 = 0, m100 = 0, m200 = 0, m500 = 0, ing, sal,mon;
         do {
             System.out.println("Menú:");
             System.out.println("1. Ingresar dinero");
